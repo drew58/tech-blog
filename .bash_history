@@ -1,0 +1,3 @@
+/gitinit
+gitinit
+git init
