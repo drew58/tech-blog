@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar-nav .nav-item{
+   margin-left: 2rem;
+}
+.carousel-item{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1495px;
+}
+}
+.carousel-caption{
+    bottom: 6.25rem;
+
+}
+.carousel-caption h2{
+    font-size: 3rem;
+}
+.btn-style{
+    padding: 1rem 3rem;
+}
+#Products{
+    margin-top: 2rem;
+}
+@media (min-width: 992px){
+    #newArrival .container, 
+    #newArriver.container-lg,
+    #newArrival .container-md,
+    #newArrival .container-sm {
+        max-width: 890px;
+    }
+    }
+.cardstyle{
+    border: none;
+    margin-top: 3rem;
+    position: relative;
+}
+/* About section */
+.about{
+    background-image:url("./images/black.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.about-caption{
+    text-align: center;
+    margin-top: 11rem;
+}
+/*Double column style */
+.singleCol{
+    position: relative;
+    margin-top: 2rem;
+}
+.caption{
+    position: absolute;
+    bottom: 200px;
+    margin-left: 3rem;
+}
+.caption p{
+    font-size: 2.5rem;
+}
+footer{
+    background-color: rgb(8, 8, 27);
+}
+.columnC ul{
+    list-style: none;
+    padding: 0%;
+}
+.columnC ul li{
+    padding-bottom: 1.2rem;
+}
+.hr{
+    width:100%;
+}
